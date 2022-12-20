@@ -201,6 +201,7 @@ YAAMP_ALGO g_algos[] =
 	{"sha256q", sha256q_hash, 1, 0, 0}, // sha256 4x
 
 	{"sib", sib_hash, 1, 0, 0},
+	{"skydoge", skydoge_hash, 1, 0, 0}, //skydoge 
 
 	{"whirlcoin", whirlpool_hash, 1, 0, sha256_hash_hex }, /* old sha merkleroot */
 	{"whirlpool", whirlpool_hash, 1, 0 }, /* sha256d merkleroot */

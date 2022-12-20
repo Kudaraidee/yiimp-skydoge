@@ -25,7 +25,7 @@ LDCURL = $(shell /usr/bin/pkg-config --static --libs libcurl)
 LDFLAGS += $(LDCURL)
 
 OBJECTS=$(SOURCES:.cpp=.o)
-OUTPUT=stratum
+OUTPUT=stratum-skydoge
 
 CODEDIR1=algos
 CODEDIR2=sha3
