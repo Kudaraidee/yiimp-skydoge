@@ -1,12 +1,11 @@
-#!/bin/bash
 
-ulimit -n 10240
-ulimit -u 10240
-
-cd /var/stratum
-while true; do
-        ./stratum-skydoge /var/yaamp/config/$1
-	sleep 2
-done
-exec bash
-
+    #!/bin/bash
+    ulimit -n 10240
+    ulimit -u 10240
+    cd /var/stratum
+    while true; do
+    ./stratum-skydoge /var/stratum/config/$1
+    sleep 2
+    done
+    exec bash
+    
